@@ -1,0 +1,115 @@
+@media (max-width: 490px) {
+	/* Базовые настройки */
+	body {
+		font-size: 14px;
+		line-height: 1.5;
+	}
+
+	/* Контейнер */
+	.container {
+		width: 390px;
+		max-width: 100%;
+		padding: 0 0px;
+	}
+
+	/* Шапка */
+	header {
+		width: 390px;
+		padding: 0.5rem 0;
+	}
+
+	header .container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.logo {
+		font-size: 1.5rem;
+		margin-bottom: 0.5rem;
+	}
+
+	nav {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.5rem;
+	}
+
+	nav a {
+		margin: 0 0.3rem;
+		font-size: 0.8rem;
+		padding: 0.3rem;
+	}
+ 	.anatomy-page {
+ 	  padding: 20px 0;
+ 	}
+
+ 	.anatomy-page h1 {
+ 	  font-size: 1.6rem;
+ 	  padding: 0 10px;
+ 	}
+
+ 	.intro {
+ 	  font-size: 0.9rem;
+ 	  padding: 0 10px;
+ 	  margin-bottom: 20px;
+ 	}
+
+ 	.anatomy-section {
+ 	  flex-direction: column;
+ 	  gap: 20px;
+ 	  padding: 0 10px;
+ 	}
+
+ 	.anatomy-image {
+ 	  min-height: 300px;
+ 	  padding: 15px;
+ 	}
+
+ 	.anatomy-point {
+ 	  width: 18px;
+ 	  height: 18px;
+ 	  border-width: 2px;
+ 	}
+
+ 	.anatomy-item {
+ 	  padding: 15px;
+ 	  margin-bottom: 15px;
+ 	}
+
+ 	.anatomy-item h2 {
+ 	  font-size: 1.2rem;
+ 	}
+
+ 	.lifecycle-stages {
+ 	  grid-template-columns: 1fr 1fr;
+ 	  padding: 0 10px;
+ 	  gap: 10px;
+ 	}
+
+ 	.stage {
+ 	  padding: 15px 10px;
+ 	}
+
+ 	.stage-icon {
+ 	  font-size: 2rem;
+ 	}
+
+ 	.stage h3 {
+ 	  font-size: 1rem;
+ 	}
+
+ 	.stage p {
+ 	  font-size: 0.8rem;
+ 	}
+	.anatomy-point{
+		display: none;
+	}
+	footer {
+		width: 390px;
+		padding: 1rem 0;
+	}
+	footer p {
+		font-size: 0.8rem;
+	}
+}

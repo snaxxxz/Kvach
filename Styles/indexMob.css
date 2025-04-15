@@ -1,0 +1,134 @@
+@media (max-width: 490px) {
+	body {
+		font-size: 14px;
+		line-height: 1.5;
+	}
+
+
+	.container {
+		width: 390px;
+		max-width: 100%;
+		padding: 0 0px;
+	}
+
+	header {
+		width: 390px;
+		padding: 0.5rem 0;
+	}
+
+	header .container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.logo {
+		font-size: 1.5rem;
+		margin-bottom: 0.5rem;
+	}
+
+	nav {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.5rem;
+	}
+
+	nav a {
+		margin: 0 0.3rem;
+		font-size: 0.8rem;
+		padding: 0.3rem;
+	}
+	.hero-slider {
+		height: 200px;
+	}
+
+	.slider-btn {
+		font-size: 1.2rem;
+		padding: 0.5rem;
+		width: 30px;
+		height: 30px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.prev {
+		left: 5px;
+	}
+
+	.next {
+		right: 5px;
+	}
+
+	.dots {
+		bottom: 10px;
+	}
+
+	.dot {
+		width: 8px;
+		height: 8px;
+	}
+
+	section {
+		padding: 2rem 0;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.image-placeholder img {
+		width: 100% !important;
+		height: auto;
+	}
+
+	.species-grid {
+		grid-template-columns: 1fr;
+		gap: 1rem;
+	}
+
+	.species-card {
+		margin-bottom: 1rem;
+	}
+
+	.card-image {
+		height: 180px;
+	}
+
+	.species-card h3 {
+		font-size: 1.1rem;
+		padding: 0.8rem 1rem 0;
+	}
+
+	.species-card p {
+		font-size: 0.9rem;
+		padding: 0.5rem 1rem 1rem;
+	}
+	.lastBgPhoto{
+		width: 390px;
+	}
+
+	.button {
+		padding: 0.8rem 1.5rem;
+		font-size: 0.9rem;
+	}
+
+	.fact-content ul {
+		padding-left: 1.2rem;
+		font-size: 0.9rem;
+	}
+
+	.fact-content li {
+		margin-bottom: 0.3rem;
+	}
+
+	footer {
+		width: 390px;
+		padding: 1rem 0;
+	}
+
+	footer p {
+		font-size: 0.8rem;
+	}
+}

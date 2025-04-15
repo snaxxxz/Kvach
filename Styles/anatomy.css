@@ -1,0 +1,171 @@
+/* Базовые стили */
+body {
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	line-height: 1.6;
+}
+
+/* Контейнер 1440px по центру */
+.container {
+	width: 1440px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* Шапка на всю ширину */
+header {
+	background: #4CAF50;
+	color: white;
+	padding: 1rem 0;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+nav a {
+	color: white;
+	margin: 0 15px;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+nav a.active {
+	text-decoration: underline;
+}
+/* Стили для страницы анатомии */
+.anatomy-page {
+	padding: 60px 0;
+}
+
+.anatomy-page h1 {
+	text-align: center;
+	color: #4CAF50;
+	margin-bottom: 20px;
+}
+
+.intro {
+	text-align: center;
+	font-size: 1.1rem;
+	color: #666;
+	max-width: 800px;
+	margin: 0 auto 40px;
+}
+
+.anatomy-section {
+	display: flex;
+	gap: 40px;
+	margin-bottom: 60px;
+}
+
+.anatomy-image {
+	flex: 1;
+	position: relative;
+	min-height:	max-content;
+
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.anatomy-image img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+}
+
+.anatomy-point {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	background: #ff5722;
+	border-radius: 50%;
+	cursor: pointer;
+	transform: translate(-50%, -50%);
+	transition: all 0.3s;
+	border: 3px solid white;
+	box-shadow: 0 0 0 2px #ff5722;
+}
+
+.anatomy-point:hover {
+	transform: translate(-50%, -50%) scale(1.2);
+	background: #ff9800;
+}
+
+.anatomy-descriptions {
+	flex: 1;
+}
+
+.anatomy-item {
+	margin-bottom: 30px;
+	padding: 20px;
+	border-radius: 8px;
+	background: white;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+	transition: all 0.3s;
+}
+
+.anatomy-item.highlight {
+	background: #fff8e1;
+	box-shadow: 0 0 0 3px #ffecb3;
+}
+
+.anatomy-item h2 {
+	color: #4CAF50;
+	margin-top: 0;
+	font-size: 1.5rem;
+}
+
+.lifecycle h2 {
+	text-align: center;
+	color: #4CAF50;
+	margin-bottom: 40px;
+}
+
+.lifecycle-stages {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+
+.stage {
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.stage-icon {
+	font-size: 2.5rem;
+	margin-bottom: 15px;
+}
+
+.stage h3 {
+	color: #4CAF50;
+	margin: 0 0 10px 0;
+}
+/* Подвал */
+footer {
+	background: #222;
+	color: white;
+	padding: 2rem 0;
+	text-align: center;
+}
+
+footer a {
+	color: #4CAF50;
+}
