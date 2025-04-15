@@ -1,4 +1,4 @@
-/* Базовые стили */
+
 body {
 	font-family: 'Arial', sans-serif;
 	margin: 0;
@@ -6,15 +6,12 @@ body {
 	color: #333;
 	line-height: 1.6;
 }
-
-/* Контейнер 1440px по центру */
 .container {
 	width: 1440px;
 	margin: 0 auto;
 	padding: 0 20px;
 }
 
-/* Шапка на всю ширину */
 header {
 	background: #4CAF50;
 	color: white;
@@ -45,7 +42,6 @@ nav a {
 nav a.active {
 	text-decoration: underline;
 }
-/* Стили для страницы видов */
 .species-page {
 	padding: 60px 0;
 }
@@ -125,7 +121,6 @@ nav a.active {
 .features li {
 	margin-bottom: 5px;
 }
-/* Подвал */
 footer {
 	background: #222;
 	color: white;
